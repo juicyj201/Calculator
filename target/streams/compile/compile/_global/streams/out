@@ -1,0 +1,21 @@
+[debug] Acquiring lock on file C:\Users\joshu\IdeaProjects\Calculator\project\target\.sbt-compilation-infos\calculator-compile\.sbt-idea-lock ...
+[error] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:10:24: type mismatch;
+[error]  found   : Int
+[error]  required: String
+[error]       Integer parseInt floatvar
+[error]                        ^
+[error] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:12:35: value nfe is not a member of object NumberFormatException
+[error]     } catch(NumberFormatException nfe){
+[error]                                   ^
+[warn] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:11:7: enclosing method checkFloat has result type Unit: return value of type Boolean(true) discarded
+[warn]       return true
+[warn]       ^
+[warn] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:13:7: enclosing method checkFloat has result type Unit: return value of type Boolean(false) discarded
+[warn]       return false
+[warn]       ^
+[warn] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:12:39: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]     } catch(NumberFormatException nfe){
+[warn]                                       ^
+[warn] three warnings found
+[error] two errors found
+[debug] Releasing lock on file C:\Users\joshu\IdeaProjects\Calculator\project\target\.sbt-compilation-infos\calculator-compile\.sbt-idea-lock.

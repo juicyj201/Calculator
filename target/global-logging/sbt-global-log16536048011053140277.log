@@ -1,0 +1,34 @@
+[debug] > Exec(~run, None, None)
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\joshu\IdeaProjects\Calculator\target\scala-2.13\classes ...
+[error] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:10:24: type mismatch;
+[error]  found   : Int
+[error]  required: String
+[error]       Integer parseInt floatvar
+[error]                        ^
+[error] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:12:35: value nfe is not a member of object NumberFormatException
+[error]     } catch(NumberFormatException nfe){
+[error]                                   ^
+[warn] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:11:7: enclosing method checkFloat has result type Unit: return value of type Boolean(true) discarded
+[warn]       return true
+[warn]       ^
+[warn] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:13:7: enclosing method checkFloat has result type Unit: return value of type Boolean(false) discarded
+[warn]       return false
+[warn]       ^
+[warn] C:\Users\joshu\IdeaProjects\Calculator\src\main\scala\Calculator.scala:12:39: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.
+[warn]     } catch(NumberFormatException nfe){
+[warn]                                       ^
+[warn] three warnings found
+[error] two errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 6 s, completed 31 Aug 2021, 15:52:23
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(__postWatch console0, None, None)
+[debug] > Exec(__waitWatch console0, None, None)
