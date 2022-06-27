@@ -140,10 +140,3 @@ class Calculator {
     }
   }
 }
-
-object Calculator{
-  def main(args: Array[String]): Unit = {
-    var obj = new Calculator
-    obj.divide(2, 8)
-  }
-}
